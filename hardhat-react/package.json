@@ -28,7 +28,8 @@
     "clean": "npx hardhat clean",
     "compile": "npx hardhat compile",
     "test": "hardhat test --network hardhat",
-    "run": "npx hardhat run --network hardhat scripts/run.js"
+    "run": "npx hardhat run --network hardhat scripts/run.js",
+    "fork": "npx hardhat node --fork https://eth-mainnet.alchemyapi.io/v2/[KEY]"
   },
   "browserslist": {
     "production": [
